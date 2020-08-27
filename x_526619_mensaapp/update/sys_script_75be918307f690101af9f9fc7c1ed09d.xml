@@ -33,18 +33,28 @@
     gaproduct.addQuery("sys_id", "=", current.getValue("produkt"));
     gaproduct.query();
 
-	if(gaproduct.next())
-	{
-		var lager = gaproduct.getValue("lager") - current.getValue("menge");
-		
-		if(lager < "0")
-			{
-				gs.addErrorMessage("zu große Menge ausgewählt!");
-				current.setAbortAction(true);
-			}
-		
-		
-	}
+    if (gaproduct.next()) {
+        var lager = gaproduct.getValue("lager") - current.getValue("menge");
+
+        if (lager < "0") {
+            gs.addErrorMessage("zu große Menge ausgewählt!");
+            current.setAbortAction(true);
+        } else {
+
+
+
+
+            var price = gaproduct.getValue("preis");
+            var ergebnislager = gaproduct.getValue("lager") - current.getValue("menge");
+            gaproduct.setValue("lager", ergebnislager);
+            gaproduct.update();
+            var ergebnis = price * current.getValue("menge");
+
+            current.endpreis = ergebnis;
+        }
+
+
+    }
 
 
 })(current, previous);]]></script>
@@ -54,7 +64,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>75be918307f690101af9f9fc7c1ed09d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>pruefe Lagerbestand</sys_name>
         <sys_overrides/>
         <sys_package display_value="MensaApp" source="x_526619_mensaapp">d7b08cc32fb29010e4c854492799b626</sys_package>
@@ -62,7 +72,7 @@
         <sys_scope display_value="MensaApp">d7b08cc32fb29010e4c854492799b626</sys_scope>
         <sys_update_name>sys_script_75be918307f690101af9f9fc7c1ed09d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-27 14:43:16</sys_updated_on>
+        <sys_updated_on>2020-08-27 16:12:37</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

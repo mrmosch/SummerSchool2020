@@ -5,8 +5,8 @@
         <action_delete>false</action_delete>
         <action_insert>true</action_insert>
         <action_query>false</action_query>
-        <action_update>true</action_update>
-        <active>true</active>
+        <action_update>false</action_update>
+        <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -40,13 +40,14 @@
         var ergebnislager = gaproduct.getValue("lager") - current.getValue("menge");
         gaproduct.setValue("lager", ergebnislager);
         gaproduct.update();
+        var ergebnis = price * current.getValue("menge");
+
+        current.endpreis = ergebnis;
 
     }
 
-    var ergebnis = price * current.getValue("menge");
 
-    current.endpreis = ergebnis;
-    current.update();
+
 
 
 
@@ -58,7 +59,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>41d2b4c3077690101af9f9fc7c1ed0a5</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Update Bestellungen und Lager</sys_name>
         <sys_overrides/>
         <sys_package display_value="MensaApp" source="x_526619_mensaapp">d7b08cc32fb29010e4c854492799b626</sys_package>
@@ -66,9 +67,9 @@
         <sys_scope display_value="MensaApp">d7b08cc32fb29010e4c854492799b626</sys_scope>
         <sys_update_name>sys_script_41d2b4c3077690101af9f9fc7c1ed0a5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-27 12:00:50</sys_updated_on>
+        <sys_updated_on>2020-08-27 16:10:50</sys_updated_on>
         <template/>
-        <when>after</when>
+        <when>before</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=41d2b4c3077690101af9f9fc7c1ed0a5"/>
 </record_update>
