@@ -42,7 +42,7 @@
         <update_guid_history>a5d6884bb73e1010b004da6c65ead17e:-192408790,a377c08b903e1010fe806813a9b85208:1397002939,a5d6884bb73e1010b004da6c65ead17e:-192408790</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_526619_mensaapp_testtable.x_526619_mensaapp.testtable_user">eb3800cbdb3e10104379c4ab0b96198f</sys_audit_delete>
+        <sys_audit_delete display_value="">eb3800cbdb3e10104379c4ab0b96198f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-08-27 08:20:04</sys_created_on>

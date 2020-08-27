@@ -60,7 +60,7 @@
         <update_guid_history>9987448bb23e10105d633a975f55a015:2058213560</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_526619_mensaapp_testtable3.x_526619_mensaapp.testtable3_user">de4880cbdb3e10104379c4ab0b96195c</sys_audit_delete>
+        <sys_audit_delete display_value="">de4880cbdb3e10104379c4ab0b96195c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-08-27 08:20:15</sys_created_on>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="name" table="x_526619_mensaapp_user">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="vegetarisch" table="x_526619_mensaapp_produkte">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -11,10 +11,10 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice/>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Name</column_label>
+        <column_label>Vegetarisch</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,15 +27,15 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>name</element>
+        <element>vegetarisch</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
-        <mandatory>true</mandatory>
+        <internal_type display_value="Choice">choice</internal_type>
+        <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_526619_mensaapp_user</name>
+        <name>x_526619_mensaapp_produkte</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-27 08:32:01</sys_created_on>
-        <sys_id>3a7d048b07f290101af9f9fc7c1ed072</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Name</sys_name>
+        <sys_created_on>2020-08-27 08:38:04</sys_created_on>
+        <sys_id>154c48c707f290101af9f9fc7c1ed0c0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Vegetarisch</sys_name>
         <sys_package display_value="MensaApp" source="x_526619_mensaapp">d7b08cc32fb29010e4c854492799b626</sys_package>
         <sys_policy/>
         <sys_scope display_value="MensaApp">d7b08cc32fb29010e4c854492799b626</sys_scope>
-        <sys_update_name>sys_dictionary_x_526619_mensaapp_user_name</sys_update_name>
+        <sys_update_name>sys_dictionary_x_526619_mensaapp_produkte_vegetarisch</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-27 08:42:59</sys_updated_on>
+        <sys_updated_on>2020-08-27 08:38:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
