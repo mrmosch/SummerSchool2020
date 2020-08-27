@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>testtable3</name>
+        <order>100</order>
+        <roles>x_526619_mensaapp.testtable3_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-27 08:15:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5927004f2fb29010e4c854492799b66a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>testtable3</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MensaApp" source="x_526619_mensaapp">d7b08cc32fb29010e4c854492799b626</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MensaApp">d7b08cc32fb29010e4c854492799b626</sys_scope>
+        <sys_update_name>sys_app_application_5927004f2fb29010e4c854492799b66a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-27 08:15:16</sys_updated_on>
+        <title>testtable3</title>
+        <view_name/>
+    </sys_app_application>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MensaApp">d7b08cc32fb29010e4c854492799b626</application>
+        <file_path/>
+        <instance_id>ac921223dba513c452e3f70fbf96196c</instance_id>
+        <instance_name>dev57133</instance_name>
+        <name>sys_app_application_5927004f2fb29010e4c854492799b66a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>testtable3</name>
+        <order>100</order>
+        <roles>x_526619_mensaapp.testtable3_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-27 08:15:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5927004f2fb29010e4c854492799b66a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>testtable3</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MensaApp" source="x_526619_mensaapp">d7b08cc32fb29010e4c854492799b626</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MensaApp">d7b08cc32fb29010e4c854492799b626</sys_scope>
+        <sys_update_name>sys_app_application_5927004f2fb29010e4c854492799b66a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-27 08:15:16</sys_updated_on>
+        <title>testtable3</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>]]></payload>
+        <payload_hash>-1472472085</payload_hash>
+        <record_name>testtable3</record_name>
+        <reverted_from/>
+        <source>e277408bdb3e10104379c4ab0b9619ea</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-27 08:16:54</sys_created_on>
+        <sys_id>5187048bdb3e10104379c4ab0b9619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1742efdbade0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-27 08:16:54</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>1187048b123e10103155bb00b87cd5c2</update_guid>
+        <update_guid_history>1187048b123e10103155bb00b87cd5c2:-1472472085</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="testtable3">0278c4cbdb3e10104379c4ab0b96190c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-27 08:21:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>46d82add994546f09fc0f587347727b1</sys_id>
+        <sys_metadata>5927004f2fb29010e4c854492799b66a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>testtable3</sys_name>
+        <sys_package display_value="MensaApp" source="x_526619_mensaapp">d7b08cc32fb29010e4c854492799b626</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MensaApp">d7b08cc32fb29010e4c854492799b626</sys_scope>
+        <sys_scope_delete display_value="">068733c1e56147b8826adf9580f12521</sys_scope_delete>
+        <sys_update_name>sys_app_application_5927004f2fb29010e4c854492799b66a</sys_update_name>
+        <sys_update_version display_value="sys_app_application_5927004f2fb29010e4c854492799b66a">5187048bdb3e10104379c4ab0b9619c2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-27 08:21:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
