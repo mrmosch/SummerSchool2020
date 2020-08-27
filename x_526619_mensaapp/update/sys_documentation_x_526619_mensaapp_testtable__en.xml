@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="testtable3" language="en" table="x_526619_mensaapp_testtable3">
+    <sys_documentation element="" label="TestTable" language="en" table="x_526619_mensaapp_testtable">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>testtable3</label>
+            <label>TestTable</label>
             <language>en</language>
-            <name>x_526619_mensaapp_testtable3</name>
-            <plural>testtable3s</plural>
+            <name>x_526619_mensaapp_testtable</name>
+            <plural>TestTables</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-27 08:15:17</sys_created_on>
-            <sys_id>0987048bdb3e10104379c4ab0b961995</sys_id>
+            <sys_created_on>2020-08-27 08:13:56</sys_created_on>
+            <sys_id>f1d6884bdb3e10104379c4ab0b96198d</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>testtable3</sys_name>
+            <sys_name>TestTable</sys_name>
             <sys_package display_value="MensaApp" source="x_526619_mensaapp">d7b08cc32fb29010e4c854492799b626</sys_package>
             <sys_policy/>
             <sys_scope display_value="MensaApp">d7b08cc32fb29010e4c854492799b626</sys_scope>
-            <sys_update_name>sys_documentation_x_526619_mensaapp_testtable3__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_526619_mensaapp_testtable__en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-27 08:15:17</sys_updated_on>
+            <sys_updated_on>2020-08-27 08:13:56</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
