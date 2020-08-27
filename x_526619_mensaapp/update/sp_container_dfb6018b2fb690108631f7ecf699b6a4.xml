@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
     <sp_container action="INSERT_OR_UPDATE">
-        <background_color/>
+        <background_color>#ffffff</background_color>
         <background_image/>
         <background_style>default</background_style>
         <bootstrap_alt>false</bootstrap_alt>
@@ -14,15 +14,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-08-27 12:53:07</sys_created_on>
         <sys_id>dfb6018b2fb690108631f7ecf699b6a4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Home - Container 1</sys_name>
         <sys_package display_value="MensaApp" source="x_526619_mensaapp">d7b08cc32fb29010e4c854492799b626</sys_package>
         <sys_policy/>
         <sys_scope display_value="MensaApp">d7b08cc32fb29010e4c854492799b626</sys_scope>
         <sys_update_name>sp_container_dfb6018b2fb690108631f7ecf699b6a4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-27 12:53:07</sys_updated_on>
+        <sys_updated_on>2020-08-27 13:50:50</sys_updated_on>
         <title/>
-        <width>container</width>
+        <width>container-fluid</width>
     </sp_container>
 </record_update>

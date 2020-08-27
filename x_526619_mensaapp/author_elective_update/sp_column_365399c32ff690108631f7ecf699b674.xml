@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <size>4</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">b25399c32ff690108631f7ecf699b66f</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-27 13:48:14</sys_created_on>
+        <sys_id>365399c32ff690108631f7ecf699b674</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="MensaApp" source="x_526619_mensaapp">d7b08cc32fb29010e4c854492799b626</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MensaApp">d7b08cc32fb29010e4c854492799b626</sys_scope>
+        <sys_update_name>sp_column_365399c32ff690108631f7ecf699b674</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-27 13:48:46</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MensaApp">d7b08cc32fb29010e4c854492799b626</application>
+        <file_path/>
+        <instance_id>10a42f9fdb75c89452dd2f17d49619c2</instance_id>
+        <instance_name>dev96488</instance_name>
+        <name>sp_column_365399c32ff690108631f7ecf699b674</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>4</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">b25399c32ff690108631f7ecf699b66f</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-08-27 13:48:14</sys_created_on><sys_id>365399c32ff690108631f7ecf699b674</sys_id><sys_mod_count>2</sys_mod_count><sys_name>1</sys_name><sys_package display_value="MensaApp" source="x_526619_mensaapp">d7b08cc32fb29010e4c854492799b626</sys_package><sys_policy/><sys_scope display_value="MensaApp">d7b08cc32fb29010e4c854492799b626</sys_scope><sys_update_name>sp_column_365399c32ff690108631f7ecf699b674</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-08-27 13:48:46</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>1749774493</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>a5ebc98f2fb690108631f7ecf699b62e</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-27 13:48:46</sys_created_on>
+        <sys_id>2e73ddc32ff690108631f7ecf699b605</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174302d91bf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-27 13:48:46</sys_updated_on>
+        <type>Column</type>
+        <update_guid>6673d9c3c5f690100a982379c346fbe9</update_guid>
+        <update_guid_history>6673d9c3c5f690100a982379c346fbe9:1749774493,b1739dc3ccf690108d9f89a45d4f0ccd:-202903009,b2535dc327f690109b7ebf62787c6191:2139386785</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">1f735dc32ff690108631f7ecf699b627</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-27 13:48:49</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>038337d3c2b34dde806e769b2e176ea4</sys_id>
+        <sys_metadata>365399c32ff690108631f7ecf699b674</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="MensaApp" source="x_526619_mensaapp">d7b08cc32fb29010e4c854492799b626</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MensaApp">d7b08cc32fb29010e4c854492799b626</sys_scope>
+        <sys_scope_delete display_value="">068733c1e56147b8826adf9580f12521</sys_scope_delete>
+        <sys_update_name>sp_column_365399c32ff690108631f7ecf699b674</sys_update_name>
+        <sys_update_version display_value="sp_column_365399c32ff690108631f7ecf699b674">2e73ddc32ff690108631f7ecf699b605</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-27 13:48:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
