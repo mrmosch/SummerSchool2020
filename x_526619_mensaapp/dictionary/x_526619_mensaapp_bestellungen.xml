@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Bestellungen" max_length="40" name="x_526619_mensaapp_bestellungen" type="collection">
+        <element label="Endpreis" max_length="40" name="endpreis" type="float"/>
+        <element label="Kunde" mandatory="true" max_length="32" name="kunde" reference="x_526619_mensaapp_user" type="reference"/>
+        <element label="Menge" mandatory="true" max_length="40" name="menge" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Produkt" mandatory="true" max_length="32" name="produkt" reference="x_526619_mensaapp_produkte" type="reference"/>
+        <element choice="3" default="0" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Angekommen" value="2"/>
+                <element inactive_on_update="false" label="Auf dem Weg" value="1"/>
+                <element inactive_on_update="false" label="In Vorbereitung" value="0"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="produkt"/>
+        </index>
+        <index name="index2">
+            <element name="kunde"/>
+        </index>
+    </element>
+</database>

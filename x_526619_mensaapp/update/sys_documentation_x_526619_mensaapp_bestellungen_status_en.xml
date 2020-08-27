@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="User" language="en" table="x_526619_mensaapp_user">
+    <sys_documentation element="status" label="Status" language="en" table="x_526619_mensaapp_bestellungen">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element/>
+            <element>status</element>
             <help/>
             <hint/>
-            <label>User</label>
+            <label>Status</label>
             <language>en</language>
-            <name>x_526619_mensaapp_user</name>
-            <plural>Users</plural>
+            <name>x_526619_mensaapp_bestellungen</name>
+            <plural>Status</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-27 08:09:22</sys_created_on>
-            <sys_id>c71e8c832ff29010e4c854492799b675</sys_id>
+            <sys_created_on>2020-08-27 09:26:01</sys_created_on>
+            <sys_id>bd57d84b2ff29010e4c854492799b6c5</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>User</sys_name>
+            <sys_name>Status</sys_name>
             <sys_package display_value="MensaApp" source="x_526619_mensaapp">d7b08cc32fb29010e4c854492799b626</sys_package>
             <sys_policy/>
             <sys_scope display_value="MensaApp">d7b08cc32fb29010e4c854492799b626</sys_scope>
-            <sys_update_name>sys_documentation_x_526619_mensaapp_user__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_526619_mensaapp_bestellungen_status_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-27 08:09:22</sys_updated_on>
+            <sys_updated_on>2020-08-27 09:26:01</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
