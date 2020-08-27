@@ -4,7 +4,7 @@
         <element label="E-Mail Adresse" max_length="100" name="e_mail_adresse" type="string"/>
         <element label="Geschäftsführer" max_length="50" name="gesch_ftsf_hrer" type="string"/>
         <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false,ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" reference="sys_user" type="reference"/>
         <element label="Telefonnummer" max_length="30" name="telefonnummer" type="integer"/>
     </element>
 </database>

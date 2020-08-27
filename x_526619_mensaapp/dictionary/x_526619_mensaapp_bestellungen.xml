@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Bestellungen" max_length="40" name="x_526619_mensaapp_bestellungen" type="collection">
-        <element label="Endpreis" max_length="40" name="endpreis" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="Endpreis" max_length="40" name="endpreis" read_only="true" type="float"/>
         <element label="Kunde" mandatory="true" max_length="32" name="kunde" reference="x_526619_mensaapp_user" type="reference"/>
         <element label="Menge" mandatory="true" max_length="40" name="menge" type="integer"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
