@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>copy_of_home_1</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-27 12:59:47</sys_created_on>
+        <sys_id>01488d8b2fb690108631f7ecf699b654</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>copy_of_home_1</sys_name>
+        <sys_package display_value="MensaApp" source="x_526619_mensaapp">d7b08cc32fb29010e4c854492799b626</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MensaApp">d7b08cc32fb29010e4c854492799b626</sys_scope>
+        <sys_update_name>sp_page_01488d8b2fb690108631f7ecf699b654</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-27 12:59:47</sys_updated_on>
+        <title>Copy of Home (1)</title>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=01488d8b2fb690108631f7ecf699b654"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MensaApp">d7b08cc32fb29010e4c854492799b626</application>
+        <file_path/>
+        <instance_id>10a42f9fdb75c89452dd2f17d49619c2</instance_id>
+        <instance_name>dev96488</instance_name>
+        <name>sp_page_01488d8b2fb690108631f7ecf699b654</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><id>copy_of_home_1</id><internal>false</internal><public>false</public><roles/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-08-27 12:59:47</sys_created_on><sys_id>01488d8b2fb690108631f7ecf699b654</sys_id><sys_mod_count>0</sys_mod_count><sys_name>copy_of_home_1</sys_name><sys_package display_value="MensaApp" source="x_526619_mensaapp">d7b08cc32fb29010e4c854492799b626</sys_package><sys_policy/><sys_scope display_value="MensaApp">d7b08cc32fb29010e4c854492799b626</sys_scope><sys_update_name>sp_page_01488d8b2fb690108631f7ecf699b654</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-08-27 12:59:47</sys_updated_on><title>Copy of Home (1)</title></sp_page><sys_translated_text action="delete_multiple" query="documentkey=01488d8b2fb690108631f7ecf699b654"/></record_update>]]></payload>
+        <payload_hash>-708233849</payload_hash>
+        <record_name>copy_of_home_1</record_name>
+        <reverted_from/>
+        <source>b6a4cd872fb690108631f7ecf699b60d</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-27 12:59:47</sys_created_on>
+        <sys_id>01488d8b2fb690108631f7ecf699b656</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1743000b8490000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-27 12:59:47</sys_updated_on>
+        <type>Page</type>
+        <update_guid>49488d8be1b69010f76b13a4aff9db55</update_guid>
+        <update_guid_history>49488d8be1b69010f76b13a4aff9db55:-708233849</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="copy_of_home_1">5319c9cb2fb690108631f7ecf699b6ec</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-27 13:03:29</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>0046094dedf349ce98a30fdd56bc6141</sys_id>
+        <sys_metadata>01488d8b2fb690108631f7ecf699b654</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>copy_of_home_1</sys_name>
+        <sys_package display_value="MensaApp" source="x_526619_mensaapp">d7b08cc32fb29010e4c854492799b626</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MensaApp">d7b08cc32fb29010e4c854492799b626</sys_scope>
+        <sys_scope_delete display_value="">068733c1e56147b8826adf9580f12521</sys_scope_delete>
+        <sys_update_name>sp_page_01488d8b2fb690108631f7ecf699b654</sys_update_name>
+        <sys_update_version display_value="sp_page_01488d8b2fb690108631f7ecf699b654">01488d8b2fb690108631f7ecf699b656</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-27 13:03:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
