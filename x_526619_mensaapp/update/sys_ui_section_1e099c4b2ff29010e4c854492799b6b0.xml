@@ -4,13 +4,13 @@
             <element>kunde</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-27 13:39:05</sys_created_on>
-            <sys_id>ac41514b07b690101af9f9fc7c1ed0af</sys_id>
+            <sys_created_on>2020-08-27 14:48:38</sys_created_on>
+            <sys_id>e321a50707f690101af9f9fc7c1ed060</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_526619_mensaapp_bestellungen" sys_domain="global" view="Default view">1e099c4b2ff29010e4c854492799b6b0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-27 13:39:05</sys_updated_on>
+            <sys_updated_on>2020-08-27 14:48:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,71 +18,43 @@
             <element>produkt</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-27 13:39:05</sys_created_on>
-            <sys_id>6441514b07b690101af9f9fc7c1ed0b0</sys_id>
+            <sys_created_on>2020-08-27 14:48:38</sys_created_on>
+            <sys_id>6721a50707f690101af9f9fc7c1ed060</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_526619_mensaapp_bestellungen" sys_domain="global" view="Default view">1e099c4b2ff29010e4c854492799b6b0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-27 13:39:05</sys_updated_on>
+            <sys_updated_on>2020-08-27 14:48:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>menge</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-27 14:48:38</sys_created_on>
+            <sys_id>e721a50707f690101af9f9fc7c1ed060</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_526619_mensaapp_bestellungen" sys_domain="global" view="Default view">1e099c4b2ff29010e4c854492799b6b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-27 14:48:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-27 13:39:05</sys_created_on>
-            <sys_id>e441514b07b690101af9f9fc7c1ed0b0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_526619_mensaapp_bestellungen" sys_domain="global" view="Default view">1e099c4b2ff29010e4c854492799b6b0</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-27 13:39:05</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>menge</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-27 13:39:05</sys_created_on>
-            <sys_id>6841514b07b690101af9f9fc7c1ed0b0</sys_id>
+            <sys_created_on>2020-08-27 14:48:38</sys_created_on>
+            <sys_id>6b21a50707f690101af9f9fc7c1ed060</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_526619_mensaapp_bestellungen" sys_domain="global" view="Default view">1e099c4b2ff29010e4c854492799b6b0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-27 13:39:05</sys_updated_on>
+            <sys_updated_on>2020-08-27 14:48:38</sys_updated_on>
             <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>endpreis</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-27 13:39:05</sys_created_on>
-            <sys_id>e841514b07b690101af9f9fc7c1ed0b0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_526619_mensaapp_bestellungen" sys_domain="global" view="Default view">1e099c4b2ff29010e4c854492799b6b0</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-27 13:39:05</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>status</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-27 13:39:05</sys_created_on>
-            <sys_id>6c41514b07b690101af9f9fc7c1ed0b0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_526619_mensaapp_bestellungen" sys_domain="global" view="Default view">1e099c4b2ff29010e4c854492799b6b0</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-27 13:39:05</sys_updated_on>
-            <sys_user/>
-            <type/>
+            <type>.split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
