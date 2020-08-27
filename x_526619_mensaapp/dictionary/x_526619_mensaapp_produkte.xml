@@ -3,11 +3,18 @@
         <element attributes="edge_encryption_enabled=true" default="40" label="Lager" max_length="40" name="lager" type="integer"/>
         <element label="Name" max_length="100" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Vegan" max_length="40" name="vegan" type="choice">
-            <choice/>
+        <element attributes="edge_encryption_enabled=true" default="3,99" label="Preis" max_length="40" name="preis" type="float"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="0" label="Vegan" max_length="40" name="vegan" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ja" value="1"/>
+                <element inactive_on_update="false" label="nein" value="0"/>
+            </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Vegetarisch" max_length="40" name="vegetarisch" type="choice">
-            <choice/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="0" label="Vegetarisch" max_length="40" name="vegetarisch" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ja" value="1"/>
+                <element inactive_on_update="false" label="nein" value="0"/>
+            </choice>
         </element>
     </element>
 </database>

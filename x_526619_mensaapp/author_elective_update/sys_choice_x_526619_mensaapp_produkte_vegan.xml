@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="vegan" table="x_526619_mensaapp_produkte" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vegan</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>nein</label>
+            <language>en</language>
+            <name>x_526619_mensaapp_produkte</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-27 11:12:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>549f6803077690101af9f9fc7c1ed017</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-27 11:12:04</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vegan</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ja</label>
+            <language>en</language>
+            <name>x_526619_mensaapp_produkte</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-27 11:16:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d4a07843077690101af9f9fc7c1ed0a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-27 11:16:37</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>vegan</element>
+            <name>x_526619_mensaapp_produkte</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-27 11:10:07</sys_created_on>
+            <sys_id>c1fb7c4b077690101af9f9fc7c1ed0e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>vegan</sys_name>
+            <sys_package display_value="MensaApp" source="x_526619_mensaapp">d7b08cc32fb29010e4c854492799b626</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MensaApp">d7b08cc32fb29010e4c854492799b626</sys_scope>
+            <sys_update_name>sys_choice_x_526619_mensaapp_produkte_vegan</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-27 11:10:07</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

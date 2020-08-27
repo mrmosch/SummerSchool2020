@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_526619_mensaapp_bestellungen</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Update Bestellungen und Lager</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+
+
+    var gaproduct = new GlideRecord('x_526619_mensaapp_produkte');
+    gaproduct.addQuery("sys_id", "=", current.getValue("produkt"));
+    gaproduct.query();
+
+    if (gaproduct.next()) {
+        var price = gaproduct.getValue("preis");
+        var ergebnislager = gaproduct.getValue("lager") - current.getValue("menge");
+        gaproduct.setValue("lager", ergebnislager);
+        gaproduct.update();
+
+    }
+
+    var ergebnis = price * current.getValue("menge");
+
+    current.endpreis = ergebnis;
+    current.update();
+
+
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-27 11:27:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>41d2b4c3077690101af9f9fc7c1ed0a5</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Update Bestellungen und Lager</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MensaApp" source="x_526619_mensaapp">d7b08cc32fb29010e4c854492799b626</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MensaApp">d7b08cc32fb29010e4c854492799b626</sys_scope>
+        <sys_update_name>sys_script_41d2b4c3077690101af9f9fc7c1ed0a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-27 12:00:50</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=41d2b4c3077690101af9f9fc7c1ed0a5"/>
+</record_update>
