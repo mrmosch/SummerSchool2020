@@ -50,7 +50,7 @@
         <update_guid_history>49488d8be1b69010f76b13a4aff9db55:-708233849</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">5319c9cb2fb690108631f7ecf699b6ec</sys_audit_delete>
+        <sys_audit_delete display_value="copy_of_home_1">5319c9cb2fb690108631f7ecf699b6ec</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-08-27 13:03:29</sys_created_on>

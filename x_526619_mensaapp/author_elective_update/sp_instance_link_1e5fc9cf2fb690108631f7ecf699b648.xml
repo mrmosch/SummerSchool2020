@@ -72,7 +72,7 @@
         <update_guid_history>7bf3150744f69010bfb2ca9461b2af73:-1084130891,77f3150768f69010815a0abe8415676a:-600012572,53f31507abf69010b4f4c1becf512c45:-1084130891,1bf31507faf690108ec6b9a81f7a503c:-600012572,76f315073cf6901059c1bba9e1f3e602:-1084130891,7af3d1073af69010725213a3812634fd:-600012572,e71355c310f6901029caa20d9b612200:-1084130891,ba8095436af6901004aa4f59a0a516e0:-1884608414,aaff8543f7f69010de0d6bb8bcc0e5db:-130519610,dacf01cf0fb69010d712f845ffe812c0:812634216,925fc9cfe5b69010c1e52e0a0b95df4a:392102348</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">280415072ff690108631f7ecf699b678</sys_audit_delete>
+        <sys_audit_delete display_value="Aktuelles Sortiment">280415072ff690108631f7ecf699b678</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-08-27 13:51:05</sys_created_on>
